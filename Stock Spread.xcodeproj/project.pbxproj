@@ -15,6 +15,7 @@
 		9E47A8F92462398800FDF176 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E47A8F72462398800FDF176 /* LaunchScreen.storyboard */; };
 		9E47A9042462398900FDF176 /* Stock_SpreadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47A9032462398900FDF176 /* Stock_SpreadTests.swift */; };
 		9E47A90F2462398900FDF176 /* Stock_SpreadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47A90E2462398900FDF176 /* Stock_SpreadUITests.swift */; };
+		9E47A91D246239EA00FDF176 /* StockHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47A91C246239EA00FDF176 /* StockHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9E47A90A2462398900FDF176 /* Stock SpreadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stock SpreadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E47A90E2462398900FDF176 /* Stock_SpreadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock_SpreadUITests.swift; sourceTree = "<group>"; };
 		9E47A9102462398900FDF176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E47A91C246239EA00FDF176 /* StockHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		9E47A8EB2462398500FDF176 /* Stock Spread */ = {
 			isa = PBXGroup;
 			children = (
+				9E47A91C246239EA00FDF176 /* StockHandler.swift */,
 				9E47A8EC2462398600FDF176 /* AppDelegate.swift */,
 				9E47A8EE2462398600FDF176 /* SceneDelegate.swift */,
 				9E47A8F02462398600FDF176 /* ContentView.swift */,
@@ -270,6 +273,7 @@
 				9E47A8ED2462398600FDF176 /* AppDelegate.swift in Sources */,
 				9E47A8EF2462398600FDF176 /* SceneDelegate.swift in Sources */,
 				9E47A8F12462398600FDF176 /* ContentView.swift in Sources */,
+				9E47A91D246239EA00FDF176 /* StockHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
